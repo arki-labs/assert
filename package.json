@@ -1,6 +1,6 @@
 {
   "name": "@arki/assert",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Runtime assertion helpers for ARKI — small, typed predicates for URLs, base64 strings, and language codes.",
   "license": "MIT",
   "repository": {
@@ -42,6 +42,12 @@
   },
   "files": [
     "dist/**",
+    "src/**",
+    "!src/**/*.test.*",
+    "!src/**/*.spec.*",
+    "!src/**/tests/**",
+    "!src/**/test/**",
+    "!src/**/__tests__/**",
     "README.md",
     "LICENSE",
     "package.json"
