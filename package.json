@@ -1,6 +1,6 @@
 {
   "name": "@arki/assert",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Runtime assertion helpers for ARKI — small, typed predicates for URLs, base64 strings, and language codes.",
   "license": "MIT",
   "repository": {
@@ -53,8 +53,8 @@
     "package.json"
   ],
   "dependencies": {
-    "is-language-code": "^5.1.3",
-    "validator": "^13.15.26"
+    "is-language-code": "^5.2.2",
+    "validator": "^13.15.35"
   },
   "publishConfig": {
     "access": "public"
